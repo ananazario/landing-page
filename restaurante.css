@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
 a{
     color: rgb(100, 88, 88);
     text-decoration: none;
@@ -16,9 +19,10 @@ a:hover{
     opacity: 0.7;
 }
 
-.logo{
+#logo{
     width: 80px;
     height: 60px;
+    margin: 0px 0px 0px 40px;
 }
 
 #delivery{
@@ -43,7 +47,7 @@ nav{
 
 .nav-list li {
     letter-spacing: 2px;
-    margin-left: 60px;
+    margin: 0px 0px 0px 40px;
 }
 
 .mobile-menu {
@@ -119,24 +123,26 @@ body {
 
 body{
     margin: 0;
-    background: linear-gradient(135deg, #F266B3, #BFB3AB);
+    background: linear-gradient(135deg, #e76cb0, #f5d9c7);
     height: 100vh;
     font-size: 24px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .conteudo{
-    margin: 80px 50px 0px 0px;
+  margin: 80px 0px 0px 50px;
 }
 
 #imagem{
-    margin: 100px 50px 0px 0px;
+    margin: 120px 20px 0px 0px;
     width: 20em;
     height: 19em;
 }
 
 h1{
     color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #mensagem{
@@ -159,8 +165,8 @@ h1{
 }
   
 .subscribe-input {
-    width: 410px;
-    height: 40px;
+    width: 460px;
+    height: 42px;
     padding-right: 0.5rem;
     background-color: #f7f7f7;
     border: none;
@@ -188,10 +194,13 @@ input{
     font-family: Verdana;
     font-size: 19px;
     transition: 0.3s;
+    width: 260px;
+    margin-left: 20px;
 }
   
 .button:hover{
       background-color: #90ac89;
 }
+
     
   
